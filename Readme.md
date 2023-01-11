@@ -8,7 +8,7 @@
 - Crie um banco de dados mysql na sua maquina chamado golang
 - Depois crie uma tabela chama usuarios
 - Depois vá em [banco/banco.go](banco/banco.go) e coloque na "stringConexao" com o banco, o nome do seu usuário do mysql e senha <br/>
-`stringConexao="<nome>:<senha>@/golang?charset=utf8&parseTime=True&loc=Local"`
+`stringConexao := "<nome>:<senha>@/golang?charset=utf8&parseTime=True&loc=Local"`
 - Depois é só rodar o projeto `go run main.go`
 
 ## Video
